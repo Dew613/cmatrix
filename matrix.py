@@ -25,8 +25,6 @@ def scalar_mult( matrix, s ):
     for i in range(0, len(matrix)):
         for j in range (0, len(matrix[i])):
             matrix[i][j]= matrix[i][j]*s
-    print_matrix(matrix)
-    return matrix
 
 #m1 * m2 -> m2
 def matrix_mult( m1, m2 ):
