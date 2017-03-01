@@ -7,7 +7,7 @@ matrix = new_matrix()
 
 print "ident() test:"
 test = ident(new_matrix())
-print_matrix(m1)
+print_matrix(test)
 print "scalar test:"
 print ""
 print ""
@@ -25,7 +25,7 @@ print "matrix 2"
 print""
 print_matrix(m2)
 print " m1 * m2 = "
-print_matrix(matrix_mult(m2, m3))
+print_matrix(matrix_mult(m1, m2))
 
 draw_lines( m2, screen, color )
 display(screen)
