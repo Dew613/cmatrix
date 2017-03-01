@@ -41,5 +41,5 @@ add_edge(pic, 20, 20, 1, 20, 450, 1)
 add_edge(pic, 450, 20, 1, 450, 450, 1)
 
 draw_lines( pic, screen, color )
-#display(screen)
+display(screen)
 save_extension(screen, 'img.png')
